@@ -2,7 +2,7 @@ import './App.css'
 
 function EventForm() {
   return (
-    <form className="event-form">
+    <form className="eventForm">
       <h2>Preencha para criar um evento:</h2>
       <fieldset>
         <label htmlFor="eventTitle">Título do Evento:</label>
