@@ -1,29 +1,18 @@
-import './App.css'
-
-function EventForm() {
-  return (
-    <form className="eventForm">
-      <h2>Preencha para criar um evento:</h2>
-      <fieldset>
-        <label htmlFor="eventTitle">Título do Evento:</label>
-        <input type="text" id="eventTitle"/>
-      </fieldset>
-    </form>
-  )
-}
+import "./App.css";
+import { EventForm } from "./components/EventForm";
 
 function App() {
   return (
     <main>
       <header>
-        <img src="/logo.png" alt="logo"/>
+        <img src="/logo.png" alt="logo" />
       </header>
       <section>
-        <img src="/banner.png" alt="banner"/>
+        <img src="/banner.png" alt="banner" />
       </section>
-      <EventForm/>
+      <EventForm />
     </main>
-  )
+  );
 }
 
-export default App
+export default App;
