@@ -31,12 +31,12 @@ function App() {
 
   // Função que verifica se existe evento para determinado tema
   function hasEventsForTheme(theme) {
-    return events.some(event => event.theme.id === theme.id);
+    return events.some((event) => event.theme.id === theme.id);
   }
 
   // Função que retorna todos os eventos de um dado tema
   function getEventsByTheme(theme) {
-    return events.filter(event => event.theme.id === theme.id);
+    return events.filter((event) => event.theme.id === theme.id);
   }
 
   // Função que renderiza o bloco de eventos agrupado por tema
