@@ -5,6 +5,11 @@
   font-weight: 400;
   font-size: 16px;
   line-height: 120%;
-  color: #ffffff;
   padding: 8px 16px;
+  color: #FFFFFF;
+}
+
+.drop-down-list option {
+  color: #FFFFFF;
+  background-color: #4a4949;
 }

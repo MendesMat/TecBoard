@@ -9,12 +9,14 @@ body {
   margin: 0;
 }
 
-section {
-  background: linear-gradient(180deg, #17e4b9 0%, #091d24 100%);
-  display: flex;
-  justify-content: center;
+.events-container{
+  width: 1000px;
+  max-width: 90%;
+  margin: 0 auto 64px;
 }
 
-section img {
-  max-width: 90%;
+.events-cards{
+  display: flex;
+  gap: 24px;
+  flex-wrap: nowrap;
 }
